@@ -1,0 +1,6 @@
+{
+    "m_title" : "WebSocket Bridge",
+    "m_descr" : "Publishes all 'change:metrics:level' events of all devices to a WebSocket Server. This can be used to build bridges to other ecosystems.<br />For a more detailed description with examples please visit <a href='https://github.com/av01d/zway-websocket-bridge'>https://github.com/av01d/zway-websocket-bridge</a>.",
+    "fields_wsserver_label": "Websocket address",
+    "fields_wsserver_helper": "For example: ws://localhost:9000/websocket"
+}

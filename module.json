@@ -1,0 +1,37 @@
+{
+    "autoload": true,
+    "singleton": true,
+    "dependencies": [
+        "BaseModule"
+    ],
+    "category": "developers_stuff",
+    "author": "Arjan Haverkamp",
+    "moduleName": "WebSocketBridge",
+    "homepage": "https://github.com/av01d/zway-websocket-bridge",
+    "version": "1.0.0",
+    "maturity": "stable",
+    "icon": "icon.png",
+    "defaults": {
+        "title": "__m_title__",
+        "description": "__m_descr__",
+        "wsServer": ""
+    },
+    "options": {
+        "fields": {
+            "wsServer": {
+                "label": "__fields_wsserver_label__",
+                "helper": "__fields_wsserver_helper__"
+            }
+        }
+    },
+    "schema": {
+        "properties": {
+            "wsServer": {
+                "type": "string",
+                "required": true
+            }
+        },
+        "required": true,
+        "type": "object"
+    }
+}
